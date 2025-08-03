@@ -434,5 +434,25 @@ nav .fas{
     margin-top: -20px;
     display: block;
 }
+/* Circular image in Home section */
+.home-profile-pic {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #ff004f;
+}
+
+.home-profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
 
 
