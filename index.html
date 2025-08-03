@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header -->
   <header id="header">
     <div class="container">
       <nav>
@@ -24,6 +23,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
       <div class="header-text">
         <p>B.Tech Engineering Student</p>
         <h1>Hi, I'm <span>Nisha Annepureddy</span></h1>
@@ -31,19 +31,16 @@
     </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about">
+  <div id="about">
     <div class="container">
       <div class="row">
         <div class="about-col-1">
-          <img src="images/picture.jpg" alt="Nisha" />
+          <img src="images/picture.jpg" alt="Nisha" style="width: 100%; max-width: 300px; border-radius: 10px;">
         </div>
         <div class="about-col-2">
           <h1 class="sub-title">About Me</h1>
-          <p>Energetic and passionate college student pursuing B.Tech, Electronics and Communication Engineering department in SVR Engineering College at JNTUA
-            University. An enthusiastic fresher who is self-starter and capable to use technical skills for the betterment of the organization. Aim to use
-            knowledge continuously learning and growing in the field of software development, a focused and goal-oriented engineering professional with zeal to
-            make a winning career in software development.</p>
+          <p>Energetic and passionate college student pursuing B.Tech, Electronics and Communication Engineering department in SVR Engineering College at JNTUA University. An enthusiastic fresher who is self-starter and capable to use technical skills for the betterment of the organization. Aim to use knowledge continuously learning and growing in the field of software development, a focused and goal-oriented engineering professional with zeal to make a winning career in software development.</p>
+          
           <div class="tab-titles">
             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
             <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -63,6 +60,7 @@
               <li><span>Basics of C</span></li>
             </ul>
           </div>
+
           <div class="tab-contents" id="education">
             <ul>
               <li><span>2022-2026</span><br>B.Tech (ECE) at SVR Engineering College, Nandyal</li>
@@ -70,6 +68,7 @@
               <li><span>2020</span><br>SSC at Sri Vignana Bharathi School, Allagadda</li>
             </ul>
           </div>
+
           <div class="tab-contents" id="strengths">
             <ul>
               <li><span>Self-Motivation</span></li>
@@ -78,18 +77,21 @@
               <li><span>Positive thinking approach</span></li>
             </ul>
           </div>
+
           <div class="tab-contents" id="languages">
             <ul>
               <li><span>Telugu</span></li>
               <li><span>English</span></li>
             </ul>
           </div>
+
           <div class="tab-contents" id="hobbies">
             <ul>
               <li><span>Reading Books</span></li>
               <li><span>Watching TV</span></li>
             </ul>
           </div>
+
           <div class="tab-contents" id="technology">
             <ul>
               <li><span>Figma</span></li>
@@ -98,52 +100,80 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- Certificates Section -->
-  <section id="Certificates">
+  <div id="Certificates">
     <div class="container">
       <h1 class="sub-title">My Certificates</h1>
       <div class="work-list">
         <div class="work">
-          <img src="images/Oracle.jpg" />
-          <div class="layer"><h3>Oracle</h3><p>This Certification belongs to Oracle course provided by Oracle University.</p></div>
+          <img src= "images/Oracle.jpg" alt="Oracle Certificate">
+          <div class="layer">
+            <h3>Oracle</h3>
+            <p>This Certification belongs to Oracle course provided by Oracle University.</p>
+          </div>
         </div>
         <div class="work">
-          <img src="images/GDSC.jpeg" />
-          <div class="layer"><h3>GDSC</h3><p>This Certification belongs to GDSC where we can explore our knowledge.</p></div>
+          <img src="images/GDSC.jpeg" alt="GDSC Certificate">
+          <div class="layer">
+            <h3>GDSC</h3>
+            <p>This Certification belongs to GDSC where we can explore our knowledge.</p>
+          </div>
         </div>
         <div class="work">
-          <img src="images/ibm.jpeg" />
-          <div class="layer"><h3>IBM</h3><p>This Certification belongs to AI provided by IBM company.</p></div>
+          <img src="images/ibm.jpeg" alt="IBM Certificate">
+          <div class="layer">
+            <h3>IBM</h3>
+            <p>This Certification belongs to AI provided by IBM company.</p>
+          </div>
         </div>
         <div class="work">
-          <img src="images/ibm1.jpeg" />
-          <div class="layer"><h3>IBM (Coursera)</h3><p>This Certification belongs to AI provided by Coursera.</p></div>
+          <img src="images/ibm1.jpeg" alt="IBM Course Certificate">
+          <div class="layer">
+            <h3>IBM (Coursera)</h3>
+            <p>This Certification belongs to AI provided by Coursera.</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src= "images/cloud computing.jpeg" alt="Cloud Certificate">
+          <div class="layer">
+            <h3>Cloud computing</h3>
+            <p>This Certification belongs to Cloud computing provided by Infosys springboard.</p>
+          </div>
         </div>
         <div class="work">
-          <img src="images/cloud computing.jpeg" />
-          <div class="layer"><h3>Cloud Computing</h3><p>This Certification belongs to Cloud computing provided by Infosys springboard.</p></div>
+          <img src="images/NPTEL.jpeg" alt="NPTEL Certificate">
+          <div class="layer">
+            <h3>NPTEL</h3>
+            <p>This Certification belongs to Computer Architecture.</p>
+          </div>
         </div>
+
         <div class="work">
-          <img src="images/NPTEL.jpeg" />
-          <div class="layer"><h3>NPTEL</h3><p>This Certification belongs to Computer Architecture.</p></div>
+          <img src="images/Uipath.jpeg" alt="UiPath Certificate">
+          <div class="layer">
+            <h3>Uipath</h3>
+            <p>This certificate belongs to Uipath which helps to build skills.</p>
+          </div>
         </div>
+
         <div class="work">
-          <img src="images/Uipath.jpeg" />
-          <div class="layer"><h3>UiPath</h3><p>This certificate belongs to Uipath which helps to build skills.</p></div>
+          <img src= "images/edx course.jpg" alt="Edx Certificate">
+          <div class="layer">
+            <h3>Edx</h3>
+            <p>This Certification belongs to Communication and Team work.</p>
+          </div>
         </div>
-        <div class="work">
-          <img src="images/edx course.jpg" />
-          <div class="layer"><h3>EdX</h3><p>This Certification belongs to Communication and Team work.</p></div>
-        </div>
+
+        
       </div>
       <a href="#" class="btn">See More</a>
     </div>
-  </section>
+  </div>
 
-  <!-- Contact Section -->
-  <section id="contact">
+  <!-- Contact -->
+  <div id="contact">
     <div class="container">
       <div class="row">
         <div class="contact-left">
@@ -155,32 +185,37 @@
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
           </div>
-          <a href="resume/Nisha_Resume.pdf" class="btn btn2" download>Download Resume</a>
+          <a href="resume/Nisha_Resume.pdf" download class="btn btn2">Download Resume</a>
         </div>
         <div class="contact-right">
-          <form>
-            <input type="text" name="Name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" rows="6" placeholder="Your Message"></textarea>
             <button type="submit" class="btn btn2">Submit</button>
           </form>
+          <span id="msg"></span>
         </div>
       </div>
     </div>
     <div class="copyright">
       <p>&copy; 2022–2026 Nisha Annepureddy</p>
     </div>
-  </section>
+  </div>
 
-  <!-- JavaScript -->
   <script>
+    const tablinks = document.getElementsByClassName("tab-links");
+    const tabcontents = document.getElementsByClassName("tab-contents");
+
     function opentab(tabname) {
-      const tablinks = document.querySelectorAll('.tab-links');
-      const tabcontents = document.querySelectorAll('.tab-contents');
-      tablinks.forEach(link => link.classList.remove('active-link'));
-      tabcontents.forEach(content => content.classList.remove('active-tab'));
-      event.currentTarget.classList.add('active-link');
-      document.getElementById(tabname).classList.add('active-tab');
+      for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
     }
 
     function openMenu() {
